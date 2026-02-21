@@ -5,10 +5,9 @@ favorite_gene <- "cry1Ab"
 organism <- "Bacillus thuringiensis"
 
 # Print the formatted sentence
-cat(
-  "Hi, my name is", name,
-  ", a student and researcher at the", affiliation,
-  ". My favorite gene is", favorite_gene,
-  "found in", organism, ".\n"
+paste0(
+  "Hi, my name is ", name,
+  ", a student and researcher at the ", affiliation,
+  ". My favorite gene is ", favorite_gene,
+  " found in ", organism, ".\n"
 )
-
